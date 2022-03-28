@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace TryBank
 {
-    internal class Program
+    public class Client
     {
-        static void Main(string[] args)
-        {
-            Client gabriela = new Client();
-        }
+        private string name;
+        private string cpf;
+        public string profission;
     }
 }

@@ -8,7 +8,7 @@ namespace TryBank
 {
     public class CheckingAccount
     {
-        public string holder;
+        public Client holder;
         public int agency;
         public int numberAccount;
         public double balance = 100;
