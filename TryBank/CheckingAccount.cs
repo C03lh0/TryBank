@@ -8,37 +8,51 @@ namespace TryBank
 {
     public class CheckingAccount
     {
-        public Client holder;
-        public int agency;
-        public int numberAccount;
-        public double balance = 100;
+        private Client holder;
+        private int agency;
+        private int numberAccount;
+        private double balance = 100;
 
         public bool Withdraw(double value)
         {
-            if (this.balance < value)
+            if (balance < value)
             {
                 return false;
             }
 
-            this.balance -= value;
+            balance -= value;
             return true;
         }
 
         public void Deposit(double value)
         {
-            this.balance += value;
+            balance += value;
         }
 
         public bool Transfer(double value, CheckingAccount destinationAccount)
         {
-            if (this.balance < value)
+            if (balance < value)
             {
                 return false;
             }
 
-            this.balance -= value;
+            balance -= value;
             destinationAccount.Deposit(value);
             return true;
+        }
+
+        public double GetBalance()
+        {
+            return balance;  
+        }
+
+        public void SetBalance(double value)
+        {
+            if (value < 0)
+            {
+                return;
+            }
+            balance = value;
         }
     }
 }
