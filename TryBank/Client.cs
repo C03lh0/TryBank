@@ -8,8 +8,8 @@ namespace TryBank
 {
     public class Client
     {
-        private string name;
-        private string cpf;
-        public string profission;
+        public string Name { get; set; }
+        public string CPF { get; set; }
+        public string Profission { get; set; }
     }
 }
