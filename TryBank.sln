@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryBank", "TryBank\TryBank.csproj", "{16CF224D-44D6-4C18-98C4-7F1B94CF725F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryBank.Agencies", "TryBank.Agencies\TryBank.Agencies.csproj", "{A88C5150-9A42-4E63-86E2-AD36B1710237}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{16CF224D-44D6-4C18-98C4-7F1B94CF725F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16CF224D-44D6-4C18-98C4-7F1B94CF725F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16CF224D-44D6-4C18-98C4-7F1B94CF725F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A88C5150-9A42-4E63-86E2-AD36B1710237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A88C5150-9A42-4E63-86E2-AD36B1710237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A88C5150-9A42-4E63-86E2-AD36B1710237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A88C5150-9A42-4E63-86E2-AD36B1710237}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
